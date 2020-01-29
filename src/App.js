@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './assets/images/logo.png';
-import './assets/css/App.css';
+import Header from './components/Header'
+import Content from './components/Content'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Globant - Escape game 2020.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const theme = {
+  primary: '#4f4f4f',
+  secondary: '#7c7c7c'
 }
 
-export default App;
+const App = () => (
+  <React.Fragment>
+    <Header theme={theme} />
+    <Content theme={theme} />
+  </React.Fragment>
+
+)
+
+export default App
