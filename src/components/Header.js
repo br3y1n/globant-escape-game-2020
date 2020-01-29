@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Header = (props) => {
   const
-    DivHeader = styled.header`
+    TagHeader = styled.header`
       width: 100%;
       height: 75px;
       position: fixed;
@@ -31,9 +31,9 @@ const Header = (props) => {
     ]
 
   return (
-    <DivHeader>
+    <TagHeader>
       <Navbar logo={logo} links={links} theme={props.theme} />
-    </DivHeader>
+    </TagHeader>
   )
 }
 

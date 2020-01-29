@@ -22,6 +22,9 @@ const Navbar = (props) => {
   return (
     <Nav>
       <Img src={logo} />
+      {links.map((link, idx) =>
+        <a key={idx} href={link.route}>{link.name}</a>
+      )}
     </Nav>
 
   )
