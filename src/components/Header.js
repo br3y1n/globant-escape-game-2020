@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './navigation/Navbar'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo-nav.png'
 import styled from 'styled-components'
 
 const Header = (props) => {
   const
     TagHeader = styled.header`
       width: 100%;
-      height: 75px;
+      height: 50px;
       position: fixed;
     `,
     links = [
@@ -20,12 +20,12 @@ const Header = (props) => {
         route: '/SecondChallenge'
       },
       {
-        name: 'third Challenge',
+        name: 'Third Challenge',
         route: '/thirdChallenge'
       }
       ,
       {
-        name: 'fourth Challenge',
+        name: 'Fourth Challenge',
         route: '/fourthChallenge'
       }
     ]

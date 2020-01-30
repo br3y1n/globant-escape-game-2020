@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Content from './components/Content'
 
@@ -10,7 +11,9 @@ const theme = {
 const App = () => (
   <React.Fragment>
     <Header theme={theme} />
-    <Content theme={theme} />
+    <Switch>
+      <Route exact path='/home' render={(props) => <Content {...props} theme={theme} />} />
+    </Switch>
   </React.Fragment>
 
 )

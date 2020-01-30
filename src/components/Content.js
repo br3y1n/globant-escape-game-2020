@@ -6,8 +6,8 @@ const Content = (props) => {
           background: ${props.theme.secondary};
           color: white;
           width: 100%;
-          height: calc(100% - 75px);
-          padding-top: 75px;
+          height: calc(100% - 50px);
+          padding-top: 50px;
         `
 
   return (
