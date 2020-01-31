@@ -4,8 +4,8 @@ import Header from './components/Header'
 import Content from './components/Content'
 
 const theme = {
-  primary: '#4f4f4f',
-  secondary: '#7c7c7c'
+  primary: '#7c7c7c',
+  secondary: '#d8d8d8'
 }
 
 const App = () => (

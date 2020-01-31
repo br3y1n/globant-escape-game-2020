@@ -21,14 +21,18 @@ const Navbar = (props) => {
     StyledLink = styled(Link)`
       display: inline-flex;
       align-items: center;
+      text-align: center;
       padding: 0 10px;
       height: 100%;
       text-decoration: none;
       color: white;
+      font-family: 'Montserrat-SemiBold';
+      font-size: 13px;
 
       &:hover{
-        background: ${props.theme.secondary};
-        color: yellow;
+        background: rgb(0, 0, 0, 0.1);
+        color: ${props.theme.secondary};
+        text-shadow: 1px 2px black
       }
     `,
     Img = styled.img`
