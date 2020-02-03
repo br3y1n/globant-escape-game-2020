@@ -8,7 +8,7 @@ import './assets/css/style.css'
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Redirect exact from="/" to="/home" />
         <Route exact path='/home' ><View fixed='/home' /></Route>
