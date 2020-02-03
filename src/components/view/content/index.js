@@ -5,6 +5,7 @@ import First from '../../../routes/firstChallenge'
 import Second from '../../../routes/secondChallenge'
 import Third from '../../../routes/thirdChallenge'
 import Fourth from '../../../routes/fourthChallenge'
+import {devices} from '../../../assets/devices'
 
 const Content = (props) => {
 
@@ -45,6 +46,10 @@ const Content = (props) => {
             text-align: center;
             align-items: center;
             color: ${props.theme.textColors.content};
+
+           @media ${devices.tablet}{
+               width: 80%
+           } 
         `
 
     return (
