@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css",
+    "main.js": "/globant-escape-game-2020/static/js/main.dd02c7b7.chunk.js",
+    "main.js.map": "/globant-escape-game-2020/static/js/main.dd02c7b7.chunk.js.map",
+    "runtime-main.js": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js",
+    "runtime-main.js.map": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js.map",
+    "static/js/2.6684b157.chunk.js": "/globant-escape-game-2020/static/js/2.6684b157.chunk.js",
+    "static/js/2.6684b157.chunk.js.map": "/globant-escape-game-2020/static/js/2.6684b157.chunk.js.map",
+    "index.html": "/globant-escape-game-2020/index.html",
+    "precache-manifest.963a3b14e590153c945d6b287eff162b.js": "/globant-escape-game-2020/precache-manifest.963a3b14e590153c945d6b287eff162b.js",
+    "service-worker.js": "/globant-escape-game-2020/service-worker.js",
+    "static/css/main.7ba4fb92.chunk.css.map": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css.map",
+    "static/js/2.6684b157.chunk.js.LICENSE": "/globant-escape-game-2020/static/js/2.6684b157.chunk.js.LICENSE",
+    "static/media/style.css": "/globant-escape-game-2020/static/media/Timotheo.3674f5ca.ttf",
+    "static/media/logo.png": "/globant-escape-game-2020/static/media/logo.9b75544e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.478583dd.js",
+    "static/js/2.6684b157.chunk.js",
+    "static/css/main.7ba4fb92.chunk.css",
+    "static/js/main.dd02c7b7.chunk.js"
+  ]
+}
