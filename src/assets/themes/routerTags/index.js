@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import {theme} from '../theme'
+import { theme } from '../theme'
 
 const
-    { fonts, fontSizes } = theme
+    { fonts, fontSizes, buttonColors, textColors } = theme
 
 export const
     Img = styled.img`
@@ -29,4 +29,23 @@ export const
         text-justify: inter-word;
         line-height: 25px;
         font-size: ${fontSizes.paragraph};
+    `,
+
+    ButtonTest = styled.div`
+        padding: 10px;
+        background: ${buttonColors.test.normal};
+        border-radius: 10px;
+        width: 150px;
+        margin: 0px auto;
+        font-family: ${fonts.secondary};
+        font-size: ${fontSizes.paragraph};
+        color: ${textColors.nav};
+
+        &:hover{
+            background: ${buttonColors.test.hover};
+        }
+
+        &:active{
+            background: ${buttonColors.test.active};
+        }
     `

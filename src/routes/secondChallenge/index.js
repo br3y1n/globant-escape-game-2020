@@ -1,5 +1,5 @@
 import React from 'react'
-import { H1, H2, P, Img } from '../../assets/themes/routerTags'
+import { H1, H2, P, Img, ButtonTest } from '../../assets/themes/routerTags'
 import keypad from './assets/Images/keypad.jpg'
 
 const SecondChallenge = (props) => {
@@ -30,6 +30,7 @@ const SecondChallenge = (props) => {
                 To pass Deepak Kumraw's test, you must write an 8 digit octal number, one digit from each column, from left to right, according to the buttons you decided to press. The number must be the highest possible!
             </P>
             <br />
+            <ButtonTest>Deploy tool</ButtonTest>
         </React.Fragment>
     )
 }

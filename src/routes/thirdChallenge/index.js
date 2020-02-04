@@ -1,5 +1,5 @@
 import React from 'react'
-import { H1, H2, P } from '../../assets/themes/routerTags'
+import { H1, H2, P, ButtonTest } from '../../assets/themes/routerTags'
 
 const ThirdChallenge = (props) => {
     return (
@@ -17,6 +17,8 @@ const ThirdChallenge = (props) => {
             <P>
                 "If a REGULATION is square, and a RULE is also square, then the key is to IGNORE ALL." Each upper case letter should stand for a different digit, and the missing combination would then be a nine digits long number; can you find it? "Square" means a perfect square.
             </P>
+            <br />
+            <ButtonTest>Deploy tool</ButtonTest>
         </React.Fragment>
     )
 }
