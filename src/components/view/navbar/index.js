@@ -19,7 +19,7 @@ class Navbar extends Component {
 
   render() {
     const
-      { fixed, theme } = this.props,
+      { fixed, theme, height } = this.props,
       { mainColors, fonts, textColors } = theme,
 
       Nav = styled.nav`
@@ -59,6 +59,10 @@ class Navbar extends Component {
             color: ${mainColors.secondary};
           }
         `}
+
+        @media ${devices.tablet} {
+         width: calc(100% - 20px);
+        }
       `,
 
       Img = styled.img`
@@ -76,12 +80,27 @@ class Navbar extends Component {
         width: auto;
 
         @media ${devices.tablet} {
-         display: ${this.state.drawerOpen ? 'flex' : 'none'}
+         display: ${this.state.drawerOpen ? 'flex' : 'none'};
+         flex-direction: column;
+         position: absolute;
+         right: 0px;
+         top: ${height};
+         width: 100%;
+         height: auto;
+         background: ${mainColors.primary};
+         justify-content: space-between;
+         border-top: 2px solid rgb(0, 0, 0, 0.3)
         }
       `,
 
       Li = styled.li`
         list-style: none;
+
+        @media ${devices.tablet} {
+          height: 30px;
+          width: 100%;
+          border-bottom: 2px solid rgb(0,0,0, 0.3);
+        }
       `,
 
       links = [

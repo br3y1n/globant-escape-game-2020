@@ -25,7 +25,7 @@ const View = (props) => {
     return (
         <React.Fragment>
             <Header>
-                <Navbar fixed={fixed} />
+                <Navbar fixed={fixed} height={headerH} />
             </Header>
             <Section>
                 <Content fixed={fixed} />
