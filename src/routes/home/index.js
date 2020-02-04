@@ -13,7 +13,7 @@ const Home = () => {
             </P>
             <br />
             <P>
-                We invite you to try the tools and find the answers to the challenges with the help of these.
+                We invite you to try the tool and find the answers to the challenges with the help of it.
             </P>
         </React.Fragment>
     )
