@@ -1,8 +1,12 @@
 import React from 'react'
+import {H1, H2} from '../../assets/themes/routerTags'
 
 const FourthChallenge = (props) => {
     return (
-        <h1>FourthChallenge</h1>
+    <React.Fragment>
+        <H1>Fourth Challenge</H1>
+        <H2>Developing...</H2>
+    </React.Fragment>
     )
 }
 
