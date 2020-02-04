@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dff4138802930b0aa1ba15ad2900421a",
+    "revision": "c234500516a3508027304f904bf14bbb",
     "url": "/globant-escape-game-2020/index.html"
   },
   {
-    "revision": "492e59acab7386f60ee9",
+    "revision": "0fa693b743e486d786c2",
     "url": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css"
   },
   {
-    "revision": "45c8cfe0827b22953236",
-    "url": "/globant-escape-game-2020/static/js/2.c7a5985c.chunk.js"
+    "revision": "e05bb36b9fe4ba182ec6",
+    "url": "/globant-escape-game-2020/static/js/2.24726ae4.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/globant-escape-game-2020/static/js/2.c7a5985c.chunk.js.LICENSE"
+    "url": "/globant-escape-game-2020/static/js/2.24726ae4.chunk.js.LICENSE"
   },
   {
-    "revision": "492e59acab7386f60ee9",
-    "url": "/globant-escape-game-2020/static/js/main.c94be41c.chunk.js"
+    "revision": "0fa693b743e486d786c2",
+    "url": "/globant-escape-game-2020/static/js/main.1005c9ab.chunk.js"
   },
   {
     "revision": "b02a4e752f990690e26d",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3674f5ca46c3d5986525acf33c4c6c65",
     "url": "/globant-escape-game-2020/static/media/Timotheo.3674f5ca.ttf"
+  },
+  {
+    "revision": "c189825c365ba471e31c2ae4446882fc",
+    "url": "/globant-escape-game-2020/static/media/keypad.c189825c.jpg"
   },
   {
     "revision": "9b75544e08f336d58b1c06482eb7a8ce",
