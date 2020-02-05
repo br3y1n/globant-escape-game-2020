@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/globant-escape-game-2020/precache-manifest.d227dde7938cfb405c2364bb4d1bc3ed.js"
+  "/globant-escape-game-2020/precache-manifest.4233e5420d491a9b3a616523bad98c16.js"
 );
 
 self.addEventListener('message', (event) => {
