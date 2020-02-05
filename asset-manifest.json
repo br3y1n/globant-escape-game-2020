@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css",
-    "main.js": "/globant-escape-game-2020/static/js/main.758e1ce4.chunk.js",
-    "main.js.map": "/globant-escape-game-2020/static/js/main.758e1ce4.chunk.js.map",
+    "main.js": "/globant-escape-game-2020/static/js/main.a47a8d3e.chunk.js",
+    "main.js.map": "/globant-escape-game-2020/static/js/main.a47a8d3e.chunk.js.map",
     "runtime-main.js": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js",
     "runtime-main.js.map": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js.map",
     "static/js/2.c7639722.chunk.js": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js",
     "static/js/2.c7639722.chunk.js.map": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js.map",
     "index.html": "/globant-escape-game-2020/index.html",
-    "precache-manifest.4233e5420d491a9b3a616523bad98c16.js": "/globant-escape-game-2020/precache-manifest.4233e5420d491a9b3a616523bad98c16.js",
+    "precache-manifest.5ba22819769fe529ea7ed62d0d0b5992.js": "/globant-escape-game-2020/precache-manifest.5ba22819769fe529ea7ed62d0d0b5992.js",
     "service-worker.js": "/globant-escape-game-2020/service-worker.js",
     "static/css/main.7ba4fb92.chunk.css.map": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css.map",
     "static/js/2.c7639722.chunk.js.LICENSE": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js.LICENSE",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.478583dd.js",
     "static/js/2.c7639722.chunk.js",
     "static/css/main.7ba4fb92.chunk.css",
-    "static/js/main.758e1ce4.chunk.js"
+    "static/js/main.a47a8d3e.chunk.js"
   ]
 }
