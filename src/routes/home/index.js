@@ -11,7 +11,6 @@ const Home = () => {
             <P>
                 This is a page where we, the "<strong>Sky team</strong>", conformed by <strong>Brayan Arango</strong> and <strong>Sebastian Salgado</strong>, developed a tool that facilitates the solution of the challenges proposed in the event Globant - Escape Game 2020.
             </P>
-            <br />
             <P>
                 We invite you to try the tool and find the answers to the challenges with the help of it.
             </P>
