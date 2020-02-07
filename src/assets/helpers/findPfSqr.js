@@ -134,8 +134,8 @@ export const findPerfectSquares = (word1, word2, convToNum) => {
 
 
       const
-        { byChar: mapChar1, byPos: mapPos1 } = wP1.map,
-        { byChar: mapChar2, byPos: mapPos2 } = wP2.map,
+        { byChar: mapChar1} = wP1.map,
+        { byChar: mapChar2} = wP2.map,
         possib1 = wP1.possibilities,
         possib2 = wP2.possibilities,
         word1 = wP1.word.replace(' ', '').toLowerCase(),
@@ -164,8 +164,8 @@ export const findPerfectSquares = (word1, word2, convToNum) => {
           if (valid) {
 
             possib = {
-              wordToNum1: val1,
-              wordToNum2: val2,
+              word1ToNum: val1,
+              word2ToNum2: val2,
               convert: convertWord({
                 word: ctn,
                 values: {

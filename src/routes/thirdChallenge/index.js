@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { H1, H2, P, ButtonTest } from '../../assets/themes/routerTags'
-import { findPerfectSquares } from '../../assets/helpers/findPfSqr'
+import ThirdTool from './tool'
 
 class ThirdChallenge extends Component {
     state = {
@@ -14,6 +14,10 @@ class ThirdChallenge extends Component {
     }
 
     render() {
+
+        const
+            tool = !this.state.deployTool ? <ButtonTest onClick={this._handlerDeployTool}>Deploy tool</ButtonTest> : <ThirdTool />
+
         return (
             <React.Fragment>
                 <H1>Third Challenge</H1>
@@ -28,8 +32,8 @@ class ThirdChallenge extends Component {
                     "If a REGULATION is square, and a RULE is also square, then the key is to IGNORE ALL." Each upper case letter should stand for a different digit, and the missing combination would then be a nine digits long number; can you find it? "Square" means a perfect square.
                 </P>
 
-                {!this.state.deployTool ? <ButtonTest onClick={this._handlerDeployTool}>Deploy tool</ButtonTest> : <H2>Developing...</H2>}
-                
+                {tool}
+
             </React.Fragment >
         )
     }
