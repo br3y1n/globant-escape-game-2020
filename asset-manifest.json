@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css",
-    "main.js": "/globant-escape-game-2020/static/js/main.a47a8d3e.chunk.js",
-    "main.js.map": "/globant-escape-game-2020/static/js/main.a47a8d3e.chunk.js.map",
+    "main.js": "/globant-escape-game-2020/static/js/main.9b77b731.chunk.js",
+    "main.js.map": "/globant-escape-game-2020/static/js/main.9b77b731.chunk.js.map",
     "runtime-main.js": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js",
     "runtime-main.js.map": "/globant-escape-game-2020/static/js/runtime-main.478583dd.js.map",
-    "static/js/2.c7639722.chunk.js": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js",
-    "static/js/2.c7639722.chunk.js.map": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js.map",
+    "static/js/2.4f1f3d89.chunk.js": "/globant-escape-game-2020/static/js/2.4f1f3d89.chunk.js",
+    "static/js/2.4f1f3d89.chunk.js.map": "/globant-escape-game-2020/static/js/2.4f1f3d89.chunk.js.map",
     "index.html": "/globant-escape-game-2020/index.html",
-    "precache-manifest.5ba22819769fe529ea7ed62d0d0b5992.js": "/globant-escape-game-2020/precache-manifest.5ba22819769fe529ea7ed62d0d0b5992.js",
+    "precache-manifest.b538068cb32c424047b3eeda7c1d2eda.js": "/globant-escape-game-2020/precache-manifest.b538068cb32c424047b3eeda7c1d2eda.js",
     "service-worker.js": "/globant-escape-game-2020/service-worker.js",
     "static/css/main.7ba4fb92.chunk.css.map": "/globant-escape-game-2020/static/css/main.7ba4fb92.chunk.css.map",
-    "static/js/2.c7639722.chunk.js.LICENSE": "/globant-escape-game-2020/static/js/2.c7639722.chunk.js.LICENSE",
+    "static/js/2.4f1f3d89.chunk.js.LICENSE": "/globant-escape-game-2020/static/js/2.4f1f3d89.chunk.js.LICENSE",
     "static/media/style.css": "/globant-escape-game-2020/static/media/Timotheo.3674f5ca.ttf",
     "static/media/keypad.jpg": "/globant-escape-game-2020/static/media/keypad.c189825c.jpg",
     "static/media/logo.png": "/globant-escape-game-2020/static/media/logo.9b75544e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.478583dd.js",
-    "static/js/2.c7639722.chunk.js",
+    "static/js/2.4f1f3d89.chunk.js",
     "static/css/main.7ba4fb92.chunk.css",
-    "static/js/main.a47a8d3e.chunk.js"
+    "static/js/main.9b77b731.chunk.js"
   ]
 }
